@@ -1,10 +1,9 @@
 from pathlib import Path
-
 import pandas as pd
 
 
 RAW_PATH = Path("data/raw/twcs.csv")
-OUTPUT_PATH = Path("data/processed/apple_support_cases.csv")
+OUTPUT_PATH = Path("data/processd/apple_support_cases.csv")
 
 SAMPLE_SIZE = 10_000
 RANDOM_SEED = 42
