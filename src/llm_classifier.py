@@ -32,7 +32,8 @@ from intent_taxonomy import INTENTS, format_intents_for_prompt
 # ---------------------------------------------------------------------------
 
 OLLAMA_URL   = os.environ.get("OLLAMA_URL",   "http://localhost:11434/api/generate")
-OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "llama3.2:3b")
+# OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "llama3.2:3b")
+OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "qwen3:8b")
 
 ALLOWED_INTENTS = set(INTENTS.keys())
 
